@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3308086535088727556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3002759235902236445}
+  - component: {fileID: 3495624428051580501}
+  - component: {fileID: 1941512587604799450}
+  - component: {fileID: 1758529070477629802}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3002759235902236445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308086535088727556}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3495624428051580501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308086535088727556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769bd24cd10cbba40bc1b26745fb2c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5260269139085241244, guid: 7c846b26bb9d47c4cadba31abf4ab5e9, type: 3}
+  finish_line: {fileID: 6330515545217255883, guid: 18d068bdb3181f54ca41c5efcc79a40f, type: 3}
+  road: {fileID: 3314830015016664825, guid: a0258c8274da54548b15697400eec322, type: 3}
+  gate: {fileID: 4909655774381057291, guid: b2da0d200fccbbe4e9dc5b65f9c82c22, type: 3}
+  obstacles:
+  - {fileID: 6089889344139058468, guid: 4d8e618ff51dcc3418f36fb0fce5e0ef, type: 3}
+  - {fileID: 8957727966469666293, guid: e3c6d3bb674c3af4c81aa166b2b88955, type: 3}
+  - {fileID: 4909655774381057291, guid: b2da0d200fccbbe4e9dc5b65f9c82c22, type: 3}
+  - {fileID: 4704747817896012671, guid: 62dab4fbff2609a45b6728651544b1aa, type: 3}
+  cinemachine_camera: {fileID: 0}
+  canvas: {fileID: 0}
+  max_stickman_possible: 1
+  min_stickman_possible: 1
+--- !u!114 &1941512587604799450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308086535088727556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9561861dd7b245449043566b5f9467d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood_red_blue: {fileID: 1028915274594873633, guid: 331795c9bff3dd84095b5f68f599dadc, type: 3}
+  blood_blue: {fileID: 547384799671769357, guid: 83fe526164bcdd5409203f47b5336b25, type: 3}
+--- !u!114 &1758529070477629802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308086535088727556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a774a07709f011547818df6653c067ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_stickman: {fileID: 4301501017763070761, guid: b9f1b05bc6c67444ca6b06fd0474b205, type: 3}
