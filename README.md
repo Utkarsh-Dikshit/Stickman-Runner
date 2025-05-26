@@ -24,8 +24,8 @@ A fun and fast-paced 2D endless runner game featuring a stickman! 🏃‍♂ Jum
 ## Folder Structure 🗂
 
 - Assets/ – Game assets including scripts, sprites, and scenes  
-- Scenes/ – Contains the main game scene  
-- Scripts/ – All C# scripts for game logic
+- Assets/Scenes/ – Contains the main game scene  
+- Assets/Scripts/ – All C# scripts for game logic
 
 ## License 📄
 
