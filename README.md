@@ -1,8 +1,6 @@
 # Stickman Runner Game 🕹
 2D runner game with randomized obstacles, procedural level generation, and player animation 🎮
 
-A fun and fast-paced 2D endless runner game featuring a stickman! 🏃‍♂ Jump, dodge obstacles, and run as far as you can to beat your high score. Built using Unity 
-
 ## Features ✨
 
 - Simple and addictive gameplay 🔁  
